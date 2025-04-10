@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pandas
 
-st.title("BMI CALCULATOR")
+st.title("BMI CALCULATOR")   
 
 height = st.slider("Enter Your height (in cm):", 100, 250, 175)
 weight =st.slider("Enter Your weight (in kg)" , 40 , 200 , 70)
