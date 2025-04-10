@@ -5,7 +5,7 @@ st.title("BMI CALCULATOR")
 
 height = st.slider("Enter Your height (in cm):", 100, 250, 175)
 weight =st.slider("Enter Your weight (in kg)" , 40 , 200 , 70)
-
+  
 
 bmi = weight / ((height/100) ** 2)
 st.write(f"Your BMI is {bmi: .2f}")
